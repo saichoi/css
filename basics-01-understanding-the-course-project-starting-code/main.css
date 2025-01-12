@@ -1,3 +1,7 @@
+body {
+    font-family: "Montserrat", serif;
+}
+
 #product-overview {
     background: #ff1b68;
 }
@@ -21,4 +25,5 @@ Specificity : 명시도
 3. class 선택자, 의사 클래스(:hover), 속성 선택자 => 세 가지가 충돌 나는 경우 코드 순서로 덮어쓰기.
 4. 태그 선택자
 5. 브라우저 설정 
+6. * 선택자
 */
