@@ -17,9 +17,9 @@ body {
     font-family: inherit;  /* 상속된 스타일을 사용하도록 명시 */
 }
 
-h1 {
+/* h1 {
     font-family: sans-serif;
-}
+} */
 
 /* 
 Cascading : 여러 규칙이 같은 요소에 적용됨.
@@ -31,4 +31,32 @@ Specificity : 명시도
 4. 태그 선택자
 5. 브라우저 설정 
 6. * 선택자
+*/
+
+/* 
+Combinators: 콤비네이터
+
+1. 인접 형제 결합자(Adjacent Sibling)
+예)
+    h2 + p { 
+        h2 태그 바로 뒤에 오는 모든 형제 p 태그를 선택
+    }
+
+2. 일반 형제 결합자(General Silbing)
+예)
+    h2 ~ p { 
+        h2 태그의 모든 형제 p 태그를 선택
+    }
+
+3. 자식 결합자(Child)
+예)
+    div > p {
+        div 태그 내의 직속 자식인 p 태그를 선택
+    }
+
+4. 자손 결합자(Descendant)
+예) div p {
+        div 태그 내의 모든 자손인 p 태그를 선택
+    }
+
 */
