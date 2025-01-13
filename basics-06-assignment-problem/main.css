@@ -1,0 +1,55 @@
+/* * {
+    font-family: sans-serif;
+}
+code {
+    color: red;
+    font-family: "Montserrat", serif;
+}
+h1 {
+    color: green;
+    font-family: sans-serif;
+}
+ol > li {
+    color: #fff;
+    background-color: #000;   
+}
+li:not(:first-child) {
+    color: #fff;
+    background-color: #000;
+}
+li {
+    font-family: inherit;
+}
+li code {
+    color: yellowgreen;
+}
+ */
+
+/* solution */
+body {
+    font-family: sans-serif;
+}
+
+.highlighted-code {
+    color: green;
+}
+
+#assignment-instructions {
+    font-family: sans-serif;
+    color: blue;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+li + li {
+    background: black;
+    color: white;
+}
+
+ol li {
+    background: black;
+    color: white;
+}
