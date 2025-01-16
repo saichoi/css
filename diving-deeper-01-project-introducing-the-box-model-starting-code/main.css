@@ -11,19 +11,9 @@ body {
 
 #product-overview {
     background: #ff1b68;
-    /* width: 50%; */
-    width: 300px;
-    /* height: 100%; width의 100%와 달리 부모 엘레먼트의 사이즈의 100$를 차지한다.*/
+    width: 100%;
     height: 528px;
-    /* height 높이에 padding과 border은 포함되지 않는다. */
     padding: 10px;
-    border: 5px solid black;
-    margin: 10px;
-    /* content-box : width와 heightd에 padding과 border이 포함되지 않는다. */
-    /* border-box : width와 heightd에 padding과 border이 포함한다. */
-    /* 단, width와 height에 margin 값은 포함되지 않는다. */
-    /* box-sizing: border-box;  */
-
 }
 
 .section-title {
@@ -38,3 +28,9 @@ body {
 /* h1 {
     font-family: sans-serif;
 } */ 
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
