@@ -6,3 +6,8 @@
 - 인라인 요소 : 전체 너비를 사용하지 않는다. width, height, margin top/bottom을 설정할 수 없다. ex) <a>, <span>, <img>
 - 블럭 요소 : 전체 너비를 사용한다. ex) <div> , <section> , <article> , <nav>, <h1>, <h2> , <p>
 - 인라인 블럭 : 인라인 요소처럼 각 요소가 나란히 위치하지만, 블럭 요소처럼 margin 설정을 할 수 있다.
+
+# 의사 클래스(Pseudo Classes)와 의사 요소(Pseudo Elements) 
+- 의사 클래스 : 요소의 **특수 상태(status : hover, active...)**에 대한 스타일을 지정할 수 있도록 한다.(:class name)
+- 의사 요소 : 요소의 **특정 부분**의 스타일을 정의할 수 있다.(::element name)
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
