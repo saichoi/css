@@ -23,11 +23,14 @@ a.active {
 
 .main-section {
     height: 800px;
-    border: 1px solid #ccc;
+    /*  highlighted 클래스에서 덮어쓰기를 했는데 !important를 사용하므로서 highlighted 클래스에 적용된 설정이 무시하기된다.
+    이런식으로 사용하게 되면 CSS코드를 이해하기 어려워지기 때문에 함부로 사용하면 안된다. */
+    border: 1px solid #ccc !important;
     padding: 16px;
 }
 
 .highlighted {
     /* main-section 클래스에서 정의한 설정을 덮어쓰기 한다. */
     border: 2px solid orange;
+    height: 200px;
 }
